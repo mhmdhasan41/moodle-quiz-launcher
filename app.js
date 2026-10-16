@@ -53,7 +53,12 @@
 
   byId("course").textContent = quiz.course;
   byId("quiz-title").textContent = quiz.title;
-  byId("deadline").textContent = quiz.deadline;
+  const deadlineParts = String(quiz.deadline).split(/\r?\n/).map((s) => s.trim()).filter(Boolean);
+  byId("deadline").textContent = deadlineParts[0] || "";
+  if (deadlineParts.length > 1) {
+    byId("deadline-time").textContent = deadlineParts.slice(1).join(" ");
+    byId("time-row").hidden = false;
+  }
   byId("duration").textContent = quiz.duration;
   byId("attempts").textContent = quiz.attempts;
   byId("browser-link").href = browserUrl;

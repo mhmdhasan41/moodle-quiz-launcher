@@ -140,4 +140,4 @@ noscript {
 @media (prefers-reduced-motion: reduce) {
   .spinner { animation: none; }
 }
-.details dd { white-space: pre-line; }
+
