@@ -56,7 +56,7 @@ window.QUIZZES = Object.freeze({
     course: "العلوم والحياة | الصف الرابع | الشعبة 1",
     title: "اختبار الأسبوع الثالث",
     deadline: "الخميس 8/10/2026 الساعة 11:55 مساءً",
-    duration: "60 دقيقة",
+    duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
     active: true
   },
@@ -64,7 +64,7 @@ window.QUIZZES = Object.freeze({
     course: "العلوم والحياة | الصف الرابع | الشعبة 2",
     title: "اختبار الأسبوع الثالث",
     deadline: "الخميس 8/10/2026 الساعة 11:55 مساءً",
-    duration: "60 دقيقة",
+    duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
     active: true
   },
@@ -72,7 +72,7 @@ window.QUIZZES = Object.freeze({
     course: "العلوم والحياة | الصف الرابع | الشعبة 3",
     title: "اختبار الأسبوع الثالث",
     deadline: "الخميس 8/10/2026 الساعة 11:55 مساءً",
-    duration: "60 دقيقة",
+    duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
     active: true
   }

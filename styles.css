@@ -118,6 +118,10 @@ dd { margin: 0; }
 .button.outline { color: var(--primary-dark); background: #fff; border-color: var(--primary); }
 .separator { display: block; margin: 9px 0; color: var(--muted); font-weight: 700; }
 
+.browser-hint { margin: 10px 0 0; font-size: .9rem; color: var(--muted); text-align: center; }
+.here-link { color: #8b0000; font-weight: 700; text-decoration: underline; }
+.site-footer { margin-top: 22px; padding-top: 14px; border-top: 1px solid #e2e8f0; text-align: center; font-weight: 700; color: var(--primary-dark); }
+
 [hidden] { display: none !important; }
 
 noscript {

@@ -60,7 +60,6 @@
   byId("store-link").href = isIOS ? CONFIG.iosStoreUrl : CONFIG.androidStoreUrl;
   byId("store-link").textContent = isIOS ? "🍎 تثبيت Moodle من App Store" : "▶️ تثبيت Moodle من Google Play";
 
-  byId("retry-button").addEventListener("click", openApp);
   byId("open-app-primary").addEventListener("click", openApp);
 
   document.title = quiz.title;
@@ -88,6 +87,7 @@
       if (!pageHidden) {
         byId("auto-open").hidden = true;
         byId("open-app-primary").hidden = false;
+        byId("browser-hint").hidden = false;
         byId("fallbacks").hidden = false;
       }
     }, CONFIG.fallbackDelayMs);
